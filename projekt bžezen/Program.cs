@@ -8,6 +8,12 @@ if (cislo1 > cislo2)
 {
     Console.WriteLine($"Číslo {cislo1} je větší než číslo {cislo2}");
 }
+
+else if (cislo1 == cislo2)
+{
+    Console.WriteLine($"Číslo {cislo1} je rovno číslu {cislo2}");
+}
+
 else
 {
     Console.WriteLine($"Číslo {cislo2} je větší než číslo {cislo1}");
